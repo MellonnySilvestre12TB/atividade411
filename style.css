@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Over the Rainbow", cursive;
+    background-color: var(--black);
+}
+
+@font-face {
+    font-family: 'boopee';
+    src: url('Boopee\ Regular.ttf') format('truetype');
+}
+
+:root {
+    --gray: #2f2f2f;
+    --White: #f8fafc;
+    --cyan: #00c7f2;
+    --black: #000000;
+    --purple: #3b0b72;
+    --pink: #eacce2;
+    --brown: #873838;
+}
+
+header {
+    background-color: var(--purple);
+    color: var(--White);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo {
+    font-family: 'boopee', sans-serif;
+    color: var(--White);
+    background-color: var(--purple);
+    font-size: 3rem;
+}
+
+.Primeira, .Segunda, .Terceira {
+    margin: 20px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(7, 21, 85, 0.3); 
+    background-color: var(--gray); 
+}
+
+.Primeira {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+img {
+    width: 30%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+p {
+    font-family: "Edu QLD Beginner", cursive;
+    max-width: 600px; 
+    font-size: 1.5rem; 
+    line-height: 1.4; 
+    margin-left: 20px; 
+    color: var(--White);
+    background-color: var(--gray);
+}
+
+.Segunda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 25rem;
+    justify-content: space-between;
+    margin-bottom: 30px; 
+    background-color: var(--cyan);
+}
+
+.Segunda img {
+    width: 700px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+.Segunda p {
+    max-width: 500px; 
+    line-height: 1.4;
+    font-size: 20px;
+    margin: 0 10px; 
+    background-color: var(--cyan);
+    color: var(--black);
+}
+
+.Terceira {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    margin-top: 30px;
+}
+
+.Terceira img {
+    width: 500px; 
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+
